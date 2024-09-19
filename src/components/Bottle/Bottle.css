@@ -1,0 +1,18 @@
+.bottle-container{
+    border: 2px solid tomato;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.bottle-container img{
+    width: 300px;
+}
+
+.btn{
+    background-color: rgb(231, 223, 223);
+}
+.btn:hover{
+    background-color: aqua;
+}
