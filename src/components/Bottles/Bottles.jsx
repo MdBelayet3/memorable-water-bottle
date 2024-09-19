@@ -46,7 +46,7 @@ const Bottles = () => {
 
     // event handler for remove data for cart
     const handleRemoveCart = id => {
-        //remove from visual cart
+        //remove from visual cart 
         const remaining = cart.filter(bottle => bottle.id !== id);
         setCart(remaining); 
         // remove from local storage
